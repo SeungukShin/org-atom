@@ -1,0 +1,38 @@
+{
+	"name": "org-atom",
+	"main": "./lib/org-atom",
+	"version": "0.0.0",
+	"description": "Org Extension for Atom",
+	"configSchema": {
+		"logLevel": {
+			"type": "string",
+			"default": "E",
+			"enum": [
+				{
+					"value": "E",
+					"description": "Error"
+				},
+				{
+					"value": "W",
+					"description": "Warning"
+				},
+				{
+					"value": "I",
+					"description": "Information"
+				}
+			]
+		}
+	},
+	"keywords": [],
+	"activationHooks": [
+		"org-atom:grammar-used"
+	],
+	"repository": "https://github.com/SeungukShin/org-atom",
+	"license": "MIT",
+	"engines": {
+		"atom": ">=1.0.0 <2.0.0"
+	},
+	"dependencies": {
+		"atom-select-list": "^0.7.2"
+	}
+}
