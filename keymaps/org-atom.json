@@ -1,5 +1,5 @@
 {
 	"atom-workspace": {
-		"ctrl-alt-o": "org-atom:toggle"
+		"ctrl-alt-o": "org-atom:toggleFold"
 	}
 }
